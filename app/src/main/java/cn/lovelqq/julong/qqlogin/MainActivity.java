@@ -53,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
         Tencent.onActivityResultData(requestCode,resultCode,data,listener);
         super.onActivityResult(requestCode, resultCode, data);
     }
-
     // 实例化回调接口
     IUiListener listener = new BaseUiListener() {
         @Override
